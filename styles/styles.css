@@ -373,7 +373,7 @@ button {
 
 .intro {
   padding: 7rem 0 0 0;
-  background: url("/images/home-bg.png") no-repeat;
+  background: url("/bert/images/home-bg.png") no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -382,7 +382,7 @@ button {
   content: "";
   width: 40vw;
   height: 100vh;
-  background: url("/images/grafismo06.png") no-repeat 440px;
+  background: url("/bert/images/grafismo06.png") no-repeat 440px;
   top: 10px;
   right: 0;
   position: absolute;
@@ -391,19 +391,19 @@ button {
 
 @media (max-width: 1690px) {
   .intro:before {
-    background: url("/images/grafismo06.png") no-repeat 320px;
+    background: url("/bert/images/grafismo06.png") no-repeat 320px;
   }
 }
 
 @media (max-width: 1366px) {
   .intro:before {
-    background: url("/images/grafismo06.png") no-repeat 140px;
+    background: url("/bert/images/grafismo06.png") no-repeat 140px;
   }
 }
 
 @media (max-width: 576px) {
   .intro:before {
-    background: url("/images/grafismo06.png") no-repeat 10px;
+    background: url("/bert/images/grafismo06.png") no-repeat 10px;
   }
 }
 
@@ -508,7 +508,7 @@ button {
   content: "";
   width: 40vw;
   height: 100vh;
-  background: url("/images/grafismo-03.png") no-repeat 10px 0;
+  background: url("/bert/images/grafismo-03.png") no-repeat 10px 0;
   top: 10px;
   left: 0;
   position: absolute;
@@ -519,7 +519,7 @@ button {
   content: "";
   width: 40vw;
   height: 100vh;
-  background: url("/images/grafismo-05.png") no-repeat 410px 0;
+  background: url("/bert/images/grafismo-05.png") no-repeat 410px 0;
   top: 200px;
   right: 0;
   position: absolute;
@@ -528,7 +528,7 @@ button {
 
 @media (max-width: 1690px) {
   .advantages:after {
-    background: url("/images/grafismo06.png") no-repeat 320px;
+    background: url("/bert/images/grafismo06.png") no-repeat 320px;
   }
 }
 
@@ -691,7 +691,7 @@ button {
   content: "";
   width: 40vw;
   height: 100vh;
-  background: url("/images/grafismo-03.png") no-repeat 10px 0;
+  background: url("/bert/images/grafismo-03.png") no-repeat 10px 0;
   top: 10px;
   left: 0;
   position: absolute;
@@ -702,7 +702,7 @@ button {
   content: "";
   width: 40vw;
   height: 100vh;
-  background: url("/images/grafismo-05.png") no-repeat 410px 0;
+  background: url("/bert/images/grafismo-05.png") no-repeat 410px 0;
   top: 200px;
   right: 0;
   position: absolute;
@@ -711,7 +711,7 @@ button {
 
 @media (max-width: 1690px) {
   .trust:after {
-    background: url("/images/grafismo06.png") no-repeat 320px;
+    background: url("/bert/images/grafismo06.png") no-repeat 320px;
   }
 }
 
@@ -883,7 +883,7 @@ button {
 }
 
 .contact {
-  background: url("/images/background-form-contact-special.png") no-repeat;
+  background: url("/bert/images/background-form-contact-special.png") no-repeat;
   background-size: cover;
   padding-bottom: 2rem;
 }
@@ -892,7 +892,7 @@ button {
   content: "";
   width: 40vw;
   height: 100vh;
-  background: url("/images/grafismo-08.png") no-repeat 90px 0;
+  background: url("/bert/images/grafismo-08.png") no-repeat 90px 0;
   top: -340px;
   left: -80px;
   position: absolute;
@@ -1164,7 +1164,7 @@ button {
   content: "";
   width: 40vw;
   height: 35vh;
-  background: url("/images/grafismo-01.png") no-repeat 580px -110px;
+  background: url("/bert/images/grafismo-01.png") no-repeat 580px -110px;
   top: 10px;
   right: 0px;
   position: absolute;
@@ -1173,13 +1173,13 @@ button {
 
 @media (max-width: 1690px) {
   .footer:before {
-    background: url("/images/grafismo06.png") no-repeat 480px -330px;
+    background: url("/bert/images/grafismo06.png") no-repeat 480px -330px;
   }
 }
 
 @media (max-width: 1366px) {
   .footer:before {
-    background: url("/images/grafismo06.png") no-repeat 170px -330px;
+    background: url("/bert/images/grafismo06.png") no-repeat 170px -330px;
   }
 }
 
