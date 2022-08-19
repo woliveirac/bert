@@ -502,6 +502,20 @@ button {
 
 .advantages {
   padding: 7rem 0 0 0;
+  /*&:after {
+    content: "";
+    width: 40vw;
+    height: 100vh;
+    background: url("/bert/images/grafismo-05.png") no-repeat 410px 0;
+    top: 200px;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    @media (max-width: 1690px) {
+      background: url("/bert/images/grafismo06.png") no-repeat 320px;
+    }
+    
+  }*/
 }
 
 .advantages:before {
@@ -513,23 +527,6 @@ button {
   left: 0;
   position: absolute;
   display: inline-block;
-}
-
-.advantages:after {
-  content: "";
-  width: 40vw;
-  height: 100vh;
-  background: url("/bert/images/grafismo-05.png") no-repeat 410px 0;
-  top: 200px;
-  right: 0;
-  position: absolute;
-  display: inline-block;
-}
-
-@media (max-width: 1690px) {
-  .advantages:after {
-    background: url("/bert/images/grafismo06.png") no-repeat 320px;
-  }
 }
 
 .advantages__list {
@@ -548,10 +545,6 @@ button {
   border-right: .5px solid #b2b2b2;
 }
 
-.advantages__item-list:last-child .advantages__list-item-description {
-  padding-top: .8rem;
-}
-
 @media (max-width: 576px) {
   .advantages__item-list {
     border: none;
@@ -564,8 +557,9 @@ button {
   line-height: 92.5%;
   text-align: center;
   letter-spacing: -0.025em;
-  padding: 1.5rem 1.3rem;
+  padding: 1.5rem 1rem;
   display: inline-block;
+  min-height: 130px;
 }
 
 @media (max-width: 768px) {
@@ -685,6 +679,19 @@ button {
 .trust {
   padding: 7rem 0 0 0;
   padding-bottom: 10rem;
+  /*&:after {
+    content: "";
+    width: 40vw;
+    height: 100vh;
+    background: url("/bert/images/grafismo-05.png") no-repeat 410px 0;
+    top: 200px;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    @media (max-width: 1690px) {
+      background: url("/bert/images/grafismo06.png") no-repeat 320px;
+    }
+  }*/
 }
 
 .trust:before {
@@ -698,23 +705,6 @@ button {
   display: inline-block;
 }
 
-.trust:after {
-  content: "";
-  width: 40vw;
-  height: 100vh;
-  background: url("/bert/images/grafismo-05.png") no-repeat 410px 0;
-  top: 200px;
-  right: 0;
-  position: absolute;
-  display: inline-block;
-}
-
-@media (max-width: 1690px) {
-  .trust:after {
-    background: url("/bert/images/grafismo06.png") no-repeat 320px;
-  }
-}
-
 .trust__title {
   padding: 0;
   text-align: center;
@@ -726,9 +716,9 @@ button {
 }
 
 .trust__title--bertolini {
-  font-size: 77px;
-  line-height: 58%;
-  letter-spacing: -0.025em;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 92.5%;
 }
 
 @media (max-width: 576px) {
@@ -739,8 +729,10 @@ button {
 }
 
 .trust__title--who {
-  font-size: 62px;
-  line-height: 93%;
+  font-size: 61px;
+  line-height: 66px;
+  /* or 108% */
+  text-align: center;
   letter-spacing: -0.025em;
 }
 
@@ -752,8 +744,11 @@ button {
 }
 
 .trust__title--trust {
-  font-size: 54px;
-  line-height: 93%;
+  font-size: 51px;
+  line-height: 66px;
+  /* or 129% */
+  margin-left: .5rem;
+  text-align: center;
   letter-spacing: -0.04em;
 }
 
@@ -765,8 +760,11 @@ button {
 }
 
 .trust__title--on {
-  font-size: 69px;
-  line-height: 78%;
+  font-size: 61px;
+  line-height: 66px;
+  /* or 108% */
+  text-align: center;
+  margin-left: 1rem;
   letter-spacing: -0.025em;
 }
 
@@ -882,13 +880,13 @@ button {
   }
 }
 
-.contact {
+.contact-section {
   background: url("/bert/images/background-form-contact-special.png") no-repeat;
   background-size: cover;
   padding-bottom: 2rem;
 }
 
-.contact:before {
+.contact-section:before {
   content: "";
   width: 40vw;
   height: 100vh;
@@ -899,47 +897,47 @@ button {
   display: inline-block;
 }
 
-.contact__title {
+.contact-section__title {
   padding: 42px 0 0;
   text-align: center;
   color: #B2B2B2;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   -webkit-transform: translate(0, -5.7rem);
           transform: translate(0, -5.7rem);
 }
 
-.contact__title--receive {
+.contact-section__title--receive {
   font-size: 62px;
   line-height: 75%;
   letter-spacing: -0.05em;
 }
 
-.contact__title--one {
+.contact-section__title--one {
   letter-spacing: -0.01em;
   font-size: 48px;
   line-height: 75%;
 }
 
-.contact__title--contact {
+.contact-section__title--contact {
   letter-spacing: -0.04em;
   font-size: 37px;
   line-height: 75%;
 }
 
-.contact__title--specialized {
+.contact-section__title--specialized {
   font-size: 62px;
   line-height: 50%;
   letter-spacing: -0.05em;
 }
 
-.contact__button-wrapper {
+.contact-section__button-wrapper {
   position: relative;
   height: 2.5rem;
 }
 
-.contact__description {
+.contact-section__description {
   position: absolute;
   bottom: 34px;
   width: 70%;
@@ -951,12 +949,12 @@ button {
 }
 
 @media (max-width: 768px) {
-  .contact__description {
+  .contact-section__description {
     display: none;
   }
 }
 
-.contact__field {
+.contact-section__field {
   padding: .8rem;
   margin: 5px 0;
   width: 100%;
@@ -979,7 +977,7 @@ button {
   line-height: 153%;
 }
 
-.contact__field--textarea {
+.contact-section__field--textarea {
   width: 100%;
   height: 200px;
   resize: none;
@@ -994,7 +992,7 @@ button {
   line-height: 153%;
 }
 
-.contact__button-send {
+.contact-section__button-send {
   background-color: #B7191A;
   position: absolute;
   right: 0;
@@ -1007,7 +1005,7 @@ button {
   cursor: pointer;
 }
 
-.contact__button-send:hover {
+.contact-section__button-send:hover {
   background-color: #bd3838;
 }
 
@@ -1486,5 +1484,298 @@ button {
     width: 46%;
     margin: 1rem auto;
   }
+}
+
+.product {
+  padding: 10rem 0 2rem;
+  color: #B2B2B2;
+}
+
+.product__content h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  margin-top: 4rem;
+  text-transform: uppercase;
+}
+
+.product__content h5 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  margin-top: 4rem;
+}
+
+.product__content p {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 120%;
+  color: #fff;
+  width: 90%;
+}
+
+.product__button {
+  background-color: #B7191A;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 153%;
+  text-transform: uppercase;
+  color: #B2B2B2;
+  padding: 0rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.product__button:hover {
+  background-color: #bd3838;
+}
+
+.product__catalog {
+  background-color: #B7191A;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #B2B2B2;
+  padding: 1rem;
+  display: block;
+  width: 30%;
+  margin: 10rem auto;
+  cursor: pointer;
+}
+
+.product__catalog:hover {
+  background-color: #bd3838;
+}
+
+.segments {
+  padding: 10rem 0;
+}
+
+.segments__title {
+  text-transform: uppercase;
+  margin: 4rem 0 8rem;
+}
+
+.segments__title--the {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 75%;
+}
+
+.segments__title--main {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 75%;
+}
+
+.segments__title--segments {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 75%;
+}
+
+.segments__title--attended {
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 75%;
+}
+
+.segments__list-item {
+  margin-top: 5rem;
+}
+
+.segments__list-item-image {
+  max-width: 40%;
+}
+
+.segments__list-item-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 90%;
+  text-transform: uppercase;
+  max-width: 50%;
+  vertical-align: middle;
+  padding-left: 1rem;
+}
+
+.segments__list-item-description {
+  margin-top: .5rem;
+  max-width: 90%;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.contact {
+  padding: 10rem 0;
+}
+
+.contact__title {
+  text-transform: uppercase;
+  margin: 4rem 0 8rem;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 75%;
+}
+
+.contact__description-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 3rem;
+}
+
+.request-contact {
+  padding: 10rem 0;
+}
+
+.request-contact__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 109.5%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.request-contact__description {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 129.5%;
+  color: #B2B2B2;
+}
+
+.request-contact__list {
+  margin-top: 5rem;
+}
+
+.request-contact__form {
+  margin-top: 1.5rem;
+}
+
+.request-contact__form label {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 129.5%;
+}
+
+.request-contact__form label.no-upper {
+  text-transform: none;
+  margin-top: .5rem;
+}
+
+.request-contact__form select {
+  color: #666565;
+  background-color: #C4C4C4 !important;
+}
+
+.request-contact__form textarea {
+  color: #666565;
+  background-color: #C4C4C4 !important;
+  min-height: 200px;
+}
+
+.request-contact__btn-send {
+  background: #B7191A;
+  color: #fff;
+  border: none;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 129.5%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.3rem 2rem;
+  border-radius: 0;
+}
+
+.request-contact__btn-send:hover {
+  background-color: #bd3838;
+}
+
+.news {
+  padding: 10rem 0;
+}
+
+.news__list-item {
+  border: 1px solid #B2B2B2;
+  margin-bottom: 3rem;
+}
+
+.news__list-item-image-wrapper {
+  max-width: 46%;
+  display: inline-block;
+}
+
+.news__list-item-content-wrapper {
+  max-width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 2rem;
+  padding-top: 2.5rem;
+}
+
+.news__list-item-content-wrapper h2 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.news__list-item-content-wrapper p {
+  margin-bottom: 1rem;
+}
+
+.news__list-item-content-wrapper span {
+  color: #B7191A;
+}
+
+.news__search-input {
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  border-radius: 0;
+  max-width: 80%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.news__search-input:focus {
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+
+.news__search-btn {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+}
+
+.news__tags {
+  margin-top: 2rem;
+}
+
+.news__tag {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  display: inline-block;
+  border: 1px solid #B2B2B2;
+  padding: .5rem;
+  margin: .3rem;
+  border-radius: .3rem;
+  cursor: pointer;
+}
+
+.news__tag:hover {
+  background-color: #333;
 }
 /*# sourceMappingURL=styles.css.map */

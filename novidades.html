@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Bertolini</title>
+  </head>
+  <body class="app">
+    <header>
+      <nav id="app__navbar" class="navbar navbar-light navbar-expand-lg">
+        <a class="navbar-brand" href="/">
+          <img src="./images/logo.png" alt="Bertolini" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item navbar__item active">
+              <a class="nav-link navbar__link" href="#institucional"
+                >Institucional</a
+              >
+            </li>
+            <li class="nav-item navbar__item">
+              <a class="nav-link navbar__link" href="/produtos.html"
+                >Produtos</a
+              >
+            </li>
+            <li class="nav-item navbar__item">
+              <a class="nav-link navbar__link" href="/segmentos.html"
+                >Segmentos</a
+              >
+            </li>
+            <li class="nav-item navbar__item">
+              <a class="nav-link navbar__link" href="/novidades.html"
+                >Novidades</a
+              >
+            </li>
+            <li class="nav-item navbar__item">
+              <a class="nav-link navbar__link" href="/contato.html">Contato</a>
+            </li>
+            <li class="nav-item navbar__item">
+              <a
+                class="nav-link navbar__link navbar__link--red"
+                href="/solicite-orcamento.html"
+                >Solicite Orçamento</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="news">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="input-group mt-5">
+                <input
+                  type="text"
+                  class="form-control news__search-input"
+                  placeholder="Faça sua busca aqui"
+                />
+                <div class="input-group-append">
+                  <button
+                    class="btn btn-secondary news__search-btn"
+                    type="button"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#000000"
+                      viewBox="0 0 30 30"
+                      width="16px"
+                      height="16px"
+                    >
+                      <path
+                        fill="#fff"
+                        d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <ul class="news__tags">
+                <li class="news__tag">Case</li>
+                <li class="news__tag">Clientes</li>
+                <li class="news__tag">Armazenagem</li>
+                <li class="news__tag">Logística</li>
+                <li class="news__tag">Novidades</li>
+                <li class="news__tag">Dicas</li>
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <ul class="news__list">
+                <li class="news__list-item">
+                  <div class="news__list-item-image-wrapper">
+                    <img src="./images/photo-news.png" alt="" />
+                  </div>
+                  <div class="news__list-item-content-wrapper">
+                    <h2>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptates dignissimos dolorem laborum fugit ducimus
+                      voluptas commodi officia quaer.
+                    </p>
+                    <span>15-07-2022</span>
+                  </div>
+                </li>
+                <li class="news__list-item">
+                  <div class="news__list-item-image-wrapper">
+                    <img src="./images/photo-news.png" alt="" />
+                  </div>
+                  <div class="news__list-item-content-wrapper">
+                    <h2>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptates dignissimos dolorem laborum fugit ducimus
+                      voluptas commodi officia quaer.
+                    </p>
+                    <span>15-07-2022</span>
+                  </div>
+                </li>
+                <li class="news__list-item">
+                  <div class="news__list-item-image-wrapper">
+                    <img src="./images/photo-news.png" alt="" />
+                  </div>
+                  <div class="news__list-item-content-wrapper">
+                    <h2>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptates dignissimos dolorem laborum fugit ducimus
+                      voluptas commodi officia quaer.
+                    </p>
+                    <span>15-07-2022</span>
+                  </div>
+                </li>
+                <li class="news__list-item">
+                  <div class="news__list-item-image-wrapper">
+                    <img src="./images/photo-news.png" alt="" />
+                  </div>
+                  <div class="news__list-item-content-wrapper">
+                    <h2>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptates dignissimos dolorem laborum fugit ducimus
+                      voluptas commodi officia quaer.
+                    </p>
+                    <span>15-07-2022</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer position-relative">
+      <div class="container-fluid footer__sitemap">
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="footer__brand-wrapper">
+              <img src="./images/logo.png" class="img-fluid" />
+              <ul class="footer__socials-list">
+                <li class="footer__socials-list-item">
+                  <img src="./images/insta.png" class="img-fluid" />
+                </li>
+                <li class="footer__socials-list-item">
+                  <img src="./images/twitter.png" class="img-fluid" />
+                </li>
+                <li class="footer__socials-list-item">
+                  <img src="./images/facebook.png" class="img-fluid" />
+                </li>
+                <li class="footer__socials-list-item">
+                  <img src="./images/whats.png" class="img-fluid" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <ul class="footer__links-section-list">
+              <li class="footer__links-section-list-item">Institucional</li>
+              <li class="footer__links-section-list-item">Produtos</li>
+              <li class="footer__links-section-list-item">Segmentos</li>
+              <li class="footer__links-section-list-item">Novidades</li>
+              <li class="footer__links-section-list-item">Contato</li>
+            </ul>
+            <ul class="footer__links-section-list">
+              <li class="footer__links-section-list-item">Tubos</li>
+              <li class="footer__links-section-list-item">Chapas</li>
+              <li class="footer__links-section-list-item">Slitter</li>
+              <li class="footer__links-section-list-item">Catálogo</li>
+            </ul>
+            <ul class="footer__links-section-list">
+              <li class="footer__links-section-list-item">Trabalhe Conosco</li>
+              <li class="footer__links-section-list-item">
+                Políticas de Privacidade
+              </li>
+              <li class="footer__links-section-list-item">
+                Políticas de Cookies
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer__typography-title">
+              <p class="footer__typography-partner">Parcerias</p>
+              <p class="footer__typography-solutions">
+                <em class="footer__typography-and">e</em> soluções
+              </p>
+              <p>
+                <span class="footer__typography-made">feitas</span>
+                <em class="footer__typography-of">de</em>
+                <strong class="footer__typography-steel">aço</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <button class="footer__cta">Solicite Orçamento</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid footer__contact">
+        <ul class="footer__contact-list row">
+          <li class="footer__contact-list-item col-lg-6">
+            <img src="./images/icon-pin.png" class="img-fluid footer__icon" />
+            Rua Pedro Dalla Costa, 565, Pradel - 95708-260 Bento Gonçalves - RS.
+            Brasil
+          </li>
+          <li class="footer__contact-list-item col-lg-3">
+            <img src="./images/icon-phone.png" class="img-fluid footer__icon" />
+            Tel: (54) 2102-8500 opção 5
+          </li>
+          <li class="footer__contact-list-item col-lg-3">
+            <img src="./images/icon-email.png" class="img-fluid footer__icon" />
+            comercial@Grupo Bertolini.com.br
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

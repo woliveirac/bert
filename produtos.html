@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Bertolini</title>
+  </head>
+  <body class="app">
+    <header>
+      <nav id="app__navbar" class="navbar navbar-light navbar-expand-lg">
+        <a class="navbar-brand" href="/">
+          <img src="./images/logo.png" alt="Bertolini" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item navbar__item active">
+              <a class="nav-link navbar__link" href="#institucional"
+                >Institucional</a
+              >
+            </li>
+            <li class="nav-item navbar__item">
+              <a class="nav-link navbar__link" href="/produtos.html"
+                >Produtos</a
+              >
+            </li>
+            <li class="nav-item navbar__item">
+              <a class="nav-link navbar__link" href="/segmentos.html"
+                >Segmentos</a
+              >
+            </li>
+            <li class="nav-item navbar__item">
+              <a class="nav-link navbar__link" href="/novidades.html"
+                >Novidades</a
+              >
+            </li>
+            <li class="nav-item navbar__item">
+              <a class="nav-link navbar__link" href="/contato.html">Contato</a>
+            </li>
+            <li class="nav-item navbar__item">
+              <a
+                class="nav-link navbar__link navbar__link--red"
+                href="/solicite-orcamento.html"
+                >Solicite Orçamento</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="product">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img src="./images/bg-product.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 product__content">
+              <h2>Tubos</h2>
+              <p>
+                Os tubos da Bertolini Soluções em Aço obedecem rigorosamente à
+                norma NBR 6591 e são destinados aos mais variados segmentos de
+                mercado nas secções circulares, quadradas, retangulares e,
+                também, em formas geométricas especiais.
+              </p>
+              <h5>Redondos</h5>
+              <p>
+                Geralmente são usados na indústria de móveis, como portões e
+                cercas, na construção civil, como em postes e grades e armações
+                de metal em geral.
+              </p>
+              <button class="product__button" type="submit">Ver todos</button>
+
+              <h5>Quadrados</h5>
+              <p>
+                O produto costuma ter mais resistência mecânica, por isso, é
+                usado em estruturas metálicas mais densas, como na construção
+                civil.
+              </p>
+              <button class="product__button" type="submit">Ver todos</button>
+
+              <h5>Retangulares</h5>
+              <p>
+                Também conhecidos como metalon, os tubos retangulares são
+                utilizados principalmente para fins estruturais em construções e
+                móveis.
+              </p>
+              <button class="product__button" type="submit">Ver todos</button>
+
+              <h5>Especiais</h5>
+              <p>
+                Geralmente são usados em obras maiores, para melhorar a
+                resistência da estrutura tubular. São divididos em
+                semi-oblongos, oblongos, elípticos, TC 50, TV 95/TV 100 e
+                TR60/TR 80.
+              </p>
+              <button class="product__button" type="submit">Ver todos</button>
+
+              <h2>Chapas</h2>
+              <p>
+                As chapas planas Bertolini Soluções em Aço são feitas com
+                equipamentos modernos e acondicionadas em fardos ou pallets
+                específicos, facilitando seu transporte e manuseio. Os blanks
+                são peças cortadas nos mais diversos tamanhos, de acordo com a
+                necessidade de cada cliente.
+              </p>
+              <button class="product__button" type="submit">Ver todos</button>
+
+              <h2>Slitter</h2>
+              <p>
+                Os slitter Bertolini Soluções em Aço são elaborados em aço
+                carbono SAE 1006/1012*, com linha de corte longitudinal em
+                bobinas fornecidas pelas usinas siderúrgicas e devidamente
+                embalados para garantir total qualidade aos produtos. Podem ser
+                em chapa fina frio, fina quente e galvanizada.
+              </p>
+            </div>
+            <div class="col-lg-12">
+              <button class="product__catalog" type="submit">
+                Baixar Catálogo
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer position-relative">
+      <div class="container-fluid footer__sitemap">
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="footer__brand-wrapper">
+              <img src="./images/logo.png" class="img-fluid" />
+              <ul class="footer__socials-list">
+                <li class="footer__socials-list-item">
+                  <img src="./images/insta.png" class="img-fluid" />
+                </li>
+                <li class="footer__socials-list-item">
+                  <img src="./images/twitter.png" class="img-fluid" />
+                </li>
+                <li class="footer__socials-list-item">
+                  <img src="./images/facebook.png" class="img-fluid" />
+                </li>
+                <li class="footer__socials-list-item">
+                  <img src="./images/whats.png" class="img-fluid" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <ul class="footer__links-section-list">
+              <li class="footer__links-section-list-item">Institucional</li>
+              <li class="footer__links-section-list-item">Produtos</li>
+              <li class="footer__links-section-list-item">Segmentos</li>
+              <li class="footer__links-section-list-item">Novidades</li>
+              <li class="footer__links-section-list-item">Contato</li>
+            </ul>
+            <ul class="footer__links-section-list">
+              <li class="footer__links-section-list-item">Tubos</li>
+              <li class="footer__links-section-list-item">Chapas</li>
+              <li class="footer__links-section-list-item">Slitter</li>
+              <li class="footer__links-section-list-item">Catálogo</li>
+            </ul>
+            <ul class="footer__links-section-list">
+              <li class="footer__links-section-list-item">Trabalhe Conosco</li>
+              <li class="footer__links-section-list-item">
+                Políticas de Privacidade
+              </li>
+              <li class="footer__links-section-list-item">
+                Políticas de Cookies
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer__typography-title">
+              <p class="footer__typography-partner">Parcerias</p>
+              <p class="footer__typography-solutions">
+                <em class="footer__typography-and">e</em> soluções
+              </p>
+              <p>
+                <span class="footer__typography-made">feitas</span>
+                <em class="footer__typography-of">de</em>
+                <strong class="footer__typography-steel">aço</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <button class="footer__cta">Solicite Orçamento</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid footer__contact">
+        <ul class="footer__contact-list row">
+          <li class="footer__contact-list-item col-lg-6">
+            <img src="./images/icon-pin.png" class="img-fluid footer__icon" />
+            Rua Pedro Dalla Costa, 565, Pradel - 95708-260 Bento Gonçalves - RS.
+            Brasil
+          </li>
+          <li class="footer__contact-list-item col-lg-3">
+            <img src="./images/icon-phone.png" class="img-fluid footer__icon" />
+            Tel: (54) 2102-8500 opção 5
+          </li>
+          <li class="footer__contact-list-item col-lg-3">
+            <img src="./images/icon-email.png" class="img-fluid footer__icon" />
+            comercial@Grupo Bertolini.com.br
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
